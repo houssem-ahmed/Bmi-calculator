@@ -1,0 +1,46 @@
+body{
+    margin:0%;
+    padding: 0%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(thumb-1920-1008249.jpg);
+}
+span{
+    color: red;
+
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    background :rgba(64, 63, 61, 0.73); ;
+    border-radius: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+} 
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+    background: black;
+    display: block;
+    margin-top: 10%;
+    cursor: pointer;
+}
+p{
+    color:white;
+}
+p1{
+    position: absolute;
+    color: blueviolet;
+    top: 10%;
+    left: 45%;
+    font-size: 58px;
+
+}
