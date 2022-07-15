@@ -3,7 +3,7 @@ function validate () {
     var password=document.getElementById("password").value ;
 if(username=="lebron_james"&& password=="1234" )
 {
-  alert ("login succesfully");
+   location.href = "bmi.html";
     
 }
 else {
