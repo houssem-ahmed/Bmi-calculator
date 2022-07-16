@@ -40,7 +40,12 @@ p1{
     position: absolute;
     color: blueviolet;
     top: 10%;
-    left: 45%;
+    left: 40%;
     font-size: 58px;
 
+}
+.image{
+    box-sizing: border-box;
+    width: 33%;
+    padding: 5px;
 }

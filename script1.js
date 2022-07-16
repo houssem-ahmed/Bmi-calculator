@@ -22,6 +22,8 @@ button.addEventListener('click', () => {
       var  bmi = (weight / ((height*height)/10000)).toFixed(2);
         if(bmi < 18.6){
             result.innerHTML = 'Under weight  :  ' + bmi + '\ you need to eat more' ;
+            
+
            
         }else if(bmi >= 18.6 && bmi < 24.9) {
             result.innerHTML = 'Normal :   '  + bmi + '\ good job ';

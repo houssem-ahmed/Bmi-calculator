@@ -3,11 +3,11 @@ function validate () {
     var password=document.getElementById("password").value ;
 if(username=="lebron_james"&& password=="1234" )
 {
-   location.href = "bmi.html";
+   window.open('file:///C:/Users/HP840/Desktop/BMI/bmi.html');
     
 }
 else {
-    alert("login failed");
+    alert("login failed , your account name or password is incorrect");
     
 }
 
